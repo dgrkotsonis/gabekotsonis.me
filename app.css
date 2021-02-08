@@ -1,0 +1,17 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    font-size: 8rem;
+    font-weight: 600;
+    color: #f6f6f6;
+}
+body {
+    color: #555753;
+    background: #fff url(images/harvard_race.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
