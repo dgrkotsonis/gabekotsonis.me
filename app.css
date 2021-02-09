@@ -26,31 +26,63 @@ body {
 .hsContainer {
     width: 100%;
     height: 100%;
-    overflow: scroll;
+    overflow: visible;
     position: relative;
+    min-width: 140px;
 }
 .hsContent {
-    top: 50%;
     left: 40%;
     position: absolute;
     color: #f0f0f6;
 }
     .hsContent h2 {
         top: 20vh;
-        font-size: 4vw;
+        font-size: calc(2vw + 24px);
         text-align: center;
         width: fit-content;
         font-weight: 600;
     }
     .hsContent h4 {
-        font-size: 3vw;
         font-weight: 200;
         font-size: calc(1.5vw + 18px);
     }
     .hsContent h6 {
-        font-size: 1.5vw;
+        font-size: calc(0.5vw + 16px);
         font-weight: 100;
     }
+
+.contactBanner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+}
+/* homepage button styling */
+a.contactButton {
+    display: inline-flex;
+    padding: 0.5em 3em;
+    border: 0.16em solid #ffffff;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 200;
+    color: #f6f6f6;
+    text-align: center;
+    transition: all 0.15s;
+}
+a.contactButton:hover{
+    color: #000;
+    background-color: #f6f6f6;
+}
+@media all and (max-width:30em){
+    a.contactButton{
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
 /* First Slide */
 #slide-1 .background {background-image: url('images/harvard_race.jpg')}
 #slide-1 .hsContent {
