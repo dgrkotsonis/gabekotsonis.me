@@ -42,6 +42,15 @@ body {
         width: fit-content;
         font-weight: 600;
     }
+    .hsContent h3 {
+        top: 18%;
+        font-size: calc(2vw + 18px);
+        text-align: center;
+        width: fit-content;
+        font-weight: 600;
+        margin-bottom: 3vh;
+        margin-left: 25vh;
+    }
     .hsContent h4 {
         font-weight: 200;
         font-size: calc(1.5vw + 18px);
@@ -83,6 +92,14 @@ body {
     }
 }
 
+/* bio */
+.bio {
+    display: flex;
+    top: 5%;
+    bottom: auto;
+    object-fit: contain;
+}
+
 /* First Slide */
 #slide-1 .background {background-image: url('images/harvard_race.jpg')}
 #slide-1 .hsContent {
@@ -92,4 +109,10 @@ body {
 }
 
 /* Second Slide */
-#slide-2 .background {background-image: url('images/wood.jpg');}
+#slide-2 .background {background-image: url('images/lake_superior.jpg');}
+#slide-2 .hsContent {
+    left: 20%;
+    right: auto;
+    top: 15%;
+    bottom: auto;
+}
