@@ -60,7 +60,7 @@ body {
     left: 20%;
 }
 /* homepage button styling */
-a.contactButton {
+.contactButton {
     display: inline-flex;
     padding: 0.5em 3em;
     border: 0.16em solid #ffffff;
@@ -72,12 +72,12 @@ a.contactButton {
     text-align: center;
     transition: all 0.15s;
 }
-a.contactButton:hover{
+.contactButton:hover{
     color: #000;
     background-color: #f6f6f6;
 }
 @media all and (max-width:30em){
-    a.contactButton{
+    .contactButton{
         display: block;
         margin: 0.4em auto;
     }
